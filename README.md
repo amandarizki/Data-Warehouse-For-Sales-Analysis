@@ -3,7 +3,6 @@
 
 This project implements an end-to-end ETL pipeline and Data Warehouse design for **The Look**, a fictional e-commerce platform. The solution uses **PySpark**, **PostgreSQL**, and **BigQuery SQL** to enable comprehensive sales data analytics.
 
----
 
 ## Project Overview
 
@@ -16,7 +15,6 @@ The pipeline covers:
 * Loading data into PostgreSQL
 * Presenting the solution with Google Slides
 
----
 
 ## Objectives
 
@@ -26,7 +24,6 @@ The pipeline covers:
 * Load transformed data into PostgreSQL tables
 * Enable business analysis on profitability, customer behavior, and sales trends
 
----
 
 ## Data Warehouse Design
 
@@ -34,7 +31,6 @@ The pipeline covers:
 
 ![Data Modeling](data%20modelling.jpg)
 
----
 
 ### Tables
 
@@ -71,7 +67,6 @@ The pipeline covers:
 
 ![ERD](ERD.png)
 
----
 
 ## ETL Process
 
@@ -86,7 +81,6 @@ SQL queries executed in **BigQuery**:
 
 See [`BigQuery.sql`](BigQuery.sql) for full query details.
 
----
 
 ### 2. Transform
 
@@ -103,9 +97,7 @@ All transformation steps are documented in the Notebook:
 Notebook.ipynb
 ```
 
----
-
-### 3️⃣ Load
+### 3. Load
 
 Data Warehouse schema creation in **PostgreSQL**:
 
@@ -113,7 +105,6 @@ Data Warehouse schema creation in **PostgreSQL**:
 * Constraints and foreign keys ensure data integrity
 * Data loaded from PySpark DataFrames into PostgreSQL tables
 
----
 
 ## Example Analytical Queries
 
@@ -126,7 +117,6 @@ The warehouse enables queries such as:
 
 All sample queries are included in the SQL DDL file.
 
----
 
 ## How to Run the Project
 
@@ -151,7 +141,6 @@ All sample queries are included in the SQL DDL file.
 
 4. **Execute the analysis cells in order.**
 
----
 
 ## Tech Stack
 
@@ -159,8 +148,6 @@ All sample queries are included in the SQL DDL file.
 * PostgreSQL
 * Google BigQuery
 * SQL
-
----
 
 ## Author
 
